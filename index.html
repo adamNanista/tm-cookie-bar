@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="MobileOptimized" content="320" />
+	
+	<title>Cookie bar</title>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/tm-cookie.css" />
+	
+</head>
+<body style="font-family: 'Roboto', sans-serif;">
+
+<a href="#" data-open="tm-cookie-bar">Otvorit cookie lištu</a><!-- link na otvorenie nastaveni z hocikade attribut data-open="classa-elementu-na-otvorenie" -->
+<br />
+<a href="#" data-open="tm-cookie-settings">Otvorit nastavenia cookies</a><!-- link na otvorenie nastaveni z hocikade attribut data-open="classa-elementu-na-otvorenie" -->
+<br />
+<a href="#" data-open="tm-cookie-bar tm-cookie-settings">Otvorit obe</a><!-- link na otvorenie nastaveni z hocikade attribut data-open="classa-elementu-na-otvorenie" -->
+
+
+<!-- TM cookie start -->
+
+<div class="tm-cookie">
+
+	<!-- TM cookie lišta start -->
+
+	<div class="tm-cookie-bar" role="alertdialog" aria-label="Súkromie" aria-describedby="tm-cookie-bar-content">
+		<div class="tm-cookie-bar-content" id="tm-cookie-bar-content">
+			<h3>Vaše súkromie je pre nás veľmi dôležité</h3>
+			<p>Môžete sa spoľahnúť, že Vaše osobné údaje spracujeme výhradne za účelom prípravy čo najlepšej ponuky pre Vás a odovzdáme ich len overeným poskytovateľom hypoték, s ktorými Vaša žiadosť súvisí. Na Vaše otázky radi odpovieme a ak by sa objavili nejaké nedostatky, obratom ich odstránime. Vaše osobné údaje sú u nás v bezpečí. Svoju činnosť vykonávame na základe povolenia Národnej banky Slovenska (registračné číslo: 127292, číslo rozhodnutia: ODT-10934/2010). Prenos údajov chránime najnovšími bezpečnostnými certifikátmi.</p>
+		</div><!-- .tm-cookie-bar-content -->
+		<div class="tm-cookie-bar-action">
+			<button class="tm-cookie-secondary-btn" data-open="tm-cookie-settings">Nastavenia cookies</button>
+			<button class="tm-cookie-primary-btn" data-close="tm-cookie-bar">Prijať všetky</button>
+		</div><!-- .tm-cookie-bar-action -->
+		<div class="tm-cookie-bar-close">
+			<button class="tm-cookie-close-btn" aria-label="Zatvoriť" data-close="tm-cookie-bar"></button>
+		</div><!-- .tm-cookie-bar-close -->
+	</div><!-- .tm-cookie-bar -->
+	
+	<!-- TM cookie lišta end -->
+	
+	<!-- TM cookie nastavenia start -->
+
+	<div class="tm-cookie-settings tm-cookie-hidden" role="alertdialog" aria-modal="true" aria-label="Nastavenia súkromia">
+		<div class="tm-cookie-settings-header">
+			<h3>Nastavenia cookies</h3>
+			<div class="tm-cookie-settings-close">
+				<button class="tm-cookie-close-btn" aria-label="Zatvoriť" data-close="tm-cookie-settings"></button>
+			</div><!-- .tm-cookie-settings-close -->
+		</div><!-- .tm-cookie-settings-header -->
+		<div class="tm-cookie-settings-content">
+			<p>Vaše súkromie je pre nás veľmi dôležité. Môžete sa spoľahnúť, že Vaše osobné údaje spracujeme výhradne za účelom prípravy čo najlepšej ponuky pre Vás a odovzdáme ich len overeným poskytovateľom hypoték, s ktorými Vaša žiadosť súvisí. Na Vaše otázky radi odpovieme a ak by sa objavili nejaké nedostatky, obratom ich odstránime. Vaše osobné údaje sú u nás v bezpečí. Svoju činnosť vykonávame na základe povolenia Národnej banky Slovenska (registračné číslo: 127292, číslo rozhodnutia: ODT-10934/2010). Prenos údajov chránime najnovšími bezpečnostnými certifikátmi.</p>
+			<h3>Vaše súkromie je pre nás veľmi dôležité</h3>
+			<p>Týmto udeľujem súhlas so spracúvaním osobných údajov uvedených v tomto formulári prevádzkovateľom – obchodnou spoločnosťou TotalMoney, s.r.o. so sídlom Levočská 866, 058 01 Poprad, IČO 45657122 za účelom ich poskytnutia jej obchodnému partnerovi – obchodnej spoločnosti FINGO, a.s. Vajnorská 100/B Bratislava - mestská časť Nové Mesto 831 04, IČO 51 015 625, aby mi sprostredkovala poskytnutie požadovanej služby označenej v tomto formulári.</p>
+			
+			<!-- TM cookie accordion start -->
+			
+			<div class="tm-cookie-accordion">
+				<div class="tm-cookie-accordion-item">
+					<button class="tm-cookie-accordion-button" aria-expanded="true"></button>
+					<div class="tm-cookie-accordion-header">
+						<div class="tm-cookie-accordion-chevron"></div>
+						<div class="tm-cookie-accordion-title">
+							<h3>Povinné cookies</h3>
+						</div>
+						<div class="tm-cookie-accordion-always-active">
+							<p>Vždy aktívne</p>
+						</div>
+					</div>
+					<div class="tm-cookie-accordion-collapse">
+						<p>Týmto udeľujem súhlas so spracúvaním osobných údajov uvedených v tomto formulári prevádzkovateľom – obchodnou spoločnosťou TotalMoney, s.r.o. so sídlom Levočská 866, 058 01 Poprad, IČO 45657122 za účelom ich poskytnutia jej obchodnému partnerovi – obchodnej spoločnosti FINGO, a.s. Vajnorská 100/B Bratislava - mestská časť Nové Mesto 831 04, IČO 51 015 625, aby mi sprostredkovala poskytnutie požadovanej služby označenej v tomto formulári.</p>
+					</div>
+				</div><!-- .tm-cookie-accordion-item -->
+				<div class="tm-cookie-accordion-item">
+					<button class="tm-cookie-accordion-button" aria-expanded="false"></button>
+					<div class="tm-cookie-accordion-header">
+						<div class="tm-cookie-accordion-chevron"></div>
+						<div class="tm-cookie-accordion-title">
+							<h3>Trekovacie cookies</h3>
+						</div>
+						<div class="tm-cookie-accordion-toggle">
+							<input type="checkbox" tabindex="0" role="switch" class="tm-cookie-accordion-switch-handler" id="tm-tracking-cookies" /><!-- tu treba aby id inputu sedelo s for="" na <label> pod tym -->
+							<label class="tm-cookie-accordion-switch" for="tm-tracking-cookies">
+								<span class="tm-cookie-accordion-switch-nob"></span>
+								<span class="tm-cookie-accordion-switch-text">Trekovacie cookies</span>
+							</label>
+						</div>
+					</div>
+					<div class="tm-cookie-accordion-collapse">
+						<p>Týmto udeľujem súhlas so spracúvaním osobných údajov uvedených v tomto formulári prevádzkovateľom – obchodnou spoločnosťou TotalMoney, s.r.o. so sídlom Levočská 866, 058 01 Poprad, IČO 45657122 za účelom ich poskytnutia jej obchodnému partnerovi – obchodnej spoločnosti FINGO, a.s. Vajnorská 100/B Bratislava - mestská časť Nové Mesto 831 04, IČO 51 015 625, aby mi sprostredkovala poskytnutie požadovanej služby označenej v tomto formulári.</p>
+					</div>
+				</div><!-- .tm-cookie-accordion-item -->
+			</div><!-- .tm-cookie-accordion -->
+			
+			<!-- TM cookie accordion end -->
+			
+			<p>Týmto udeľujem súhlas so spracúvaním osobných údajov uvedených v tomto formulári prevádzkovateľom – obchodnou spoločnosťou TotalMoney, s.r.o. so sídlom Levočská 866, 058 01 Poprad, IČO 45657122 za účelom ich poskytnutia jej obchodnému partnerovi – obchodnej spoločnosti FINGO, a.s. Vajnorská 100/B Bratislava - mestská časť Nové Mesto 831 04, IČO 51 015 625, aby mi sprostredkovala poskytnutie požadovanej služby označenej v tomto formulári.</p>
+		</div><!-- .tm-cookie-settings-content -->
+		<div class="tm-cookie-settings-footer">
+			<button class="tm-cookie-primary-btn" data-close="tm-cookie-bar tm-cookie-settings">Potvrdiť výber</button>
+			<button class="tm-cookie-primary-btn" data-close="tm-cookie-bar tm-cookie-settings">Prijať všetky</button>
+		</div><!-- .tm-cookie-settings-footer -->
+	</div><!-- .tm-cookie-settings -->
+	
+	<!-- TM cookie nastavenia end -->
+	
+</div><!-- .tm-cookie -->
+	
+<script src="assets/js/tm-cookie.js"></script>
+
+<!-- TM cookie end -->
+	
+</body>
+</html>
